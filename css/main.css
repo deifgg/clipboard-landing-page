@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: hsl(203, 7%, 46%);
+}
+
+.right {
+    margin-right: 15px;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    color: hsl(201, 11%, 66%);
+    background-color: white;
+}
+
+h2 {
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 5px;
+}
+
+.btn-box {
+    margin-top: 50px;
+}
+
+.download-btn {
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+header {
+    background-image: url(../images/bg-header-mobile.png);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    width: 259px;
+    margin: auto;
+}
+
+header .container img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 150px;
+}
+
+.first h2 {
+    margin-bottom: 15px;
+}
+
+.one {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px hsla(171, 64%, 33%, 0.789);
+    margin-bottom: 20px;
+}
+
+.two {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsla(233, 66%, 60%, 0.462);
+}
+
+
+.second h2 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.second {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.second .grid {
+    width: 259px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second img {
+    width: 259px;
+    margin-top: 50px;
+}
+
+.second .feature {
+    margin-top: 50px;
+}
+
+.third {
+    margin-top: 150px;
+}
+
+.third img {
+    width: 259px;
+    margin-top: 50px;
+}
+
+.forth {
+    margin-top: 50px;
+}
+
+.forth h2 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.forth img {
+    margin-top: 30px
+}
+
+.forth .super {
+    margin-bottom: 80px;
+}
+
+.forth .grid {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fifth .container {
+    margin-top: 50px;
+    
+ 
+}
+
+.fifth .google {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.fifth .ibm {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.fifth .micro {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.fifth .hp {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.fifth .vector {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sixth {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: lightgray;
+    margin-top: 100px;
+}
+
+footer a {
+    color: hsl(203, 7%, 46%);
+}
+
+footer .c-logo {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .grid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(295, 1fr));
+    grid-template-rows: 80px repeat(5, 40px);
+}
+
+.one:active {
+    background-color: hsl(171, 90%, 53%);
+    ;
+}
+
+.two:active {
+    background-color: hsl(233, 100%, 78%)
+}
